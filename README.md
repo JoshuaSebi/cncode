@@ -36,10 +36,6 @@ Each section includes the **algorithm** and corresponding **client–server code
 4. Receive reply using `recv()`.
 5. Close the socket.
 
-### 📂 **Files**
-- `tcp_server.c`
-- `tcp_client.c`
-
 ---
 
 ## 2️⃣ UDP Client-Server
@@ -57,10 +53,6 @@ Each section includes the **algorithm** and corresponding **client–server code
 2. Send message to server using `sendto()`.
 3. Receive server reply using `recvfrom()`.
 4. Close the socket.
-
-### 📂 **Files**
-- `udp_server.c`
-- `udp_client.c`
 
 ---
 
@@ -84,10 +76,6 @@ Each section includes the **algorithm** and corresponding **client–server code
 3. Receive and print result.
 4. Close the socket.
 
-### 📂 **Files**
-- `armstrong_server.c`
-- `armstrong_client.c`
-
 ---
 
 ## 4️⃣ Time Server using TCP
@@ -107,10 +95,6 @@ Each section includes the **algorithm** and corresponding **client–server code
 3. Send time request message.
 4. Receive current time and display.
 5. Close socket.
-
-### 📂 **Files**
-- `time_server.c`
-- `time_client.c`
 
 ---
 
@@ -132,10 +116,6 @@ Each section includes the **algorithm** and corresponding **client–server code
 4. Send file content to server.
 5. Receive confirmation message.
 
-### 📂 **Files**
-- `file_server.c`
-- `file_client.c`
-
 ---
 
 ## 6️⃣ Stop and Wait ARQ
@@ -155,10 +135,6 @@ Each section includes the **algorithm** and corresponding **client–server code
 4. If correct frame received, send ACK.
 5. Continue till all frames received.
 
-### 📂 **Files**
-- `stopnwait_client.c`
-- `stopnwait_server.c`
-
 ---
 
 ## 7️⃣ Go Back N ARQ
@@ -175,10 +151,6 @@ Each section includes the **algorithm** and corresponding **client–server code
 2. Receive frames in order.
 3. Drop one frame intentionally to simulate error.
 4. Send cumulative ACK for last correctly received frame.
-
-### 📂 **Files**
-- `gobackn_client.c`
-- `gobackn_server.c`
 
 ---
 
@@ -197,17 +169,13 @@ Each section includes the **algorithm** and corresponding **client–server code
 3. Send ACK for every correctly received frame.
 4. Maintain buffer for received frames until all are received.
 
-### 📂 **Files**
-- `selectiverepeat_client.c`
-- `selectiverepeat_server.c`
-
 ---
 
 ## ⚙️ **How to Compile & Run**
 
 ### TCP/UDP Programs
 ```bash
-gcc server.c -o server
-gcc client.c -o client
+gcc server.c 
+gcc client.c 
 ./server
 ./client

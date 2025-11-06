@@ -17,19 +17,6 @@ Each section includes the **algorithm** and corresponding **client–server code
 
 ---
 
-## 📁 Folder Structure
-
-├── TCP
-├── UDP
-├── Stop-and-Wait
-├── Go-Back-N
-├── Selective-Repeat
-├── FTP
-├── Time-Server
-└── ALGORITHM.md
-
----
-
 ## ⚙️ **How to Compile & Run**
 
 > 💡 **Note:** Navigate (`cd`) into the specific folder that contains the source code before running the commands.

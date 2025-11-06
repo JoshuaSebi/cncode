@@ -1,5 +1,3 @@
-### 🧠 **ALGORITHM.md**
-```markdown
 # 🧮 Algorithms for CN Lab Programs
 
 This file contains the algorithms for all Computer Networks experiments.

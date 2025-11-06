@@ -1,5 +1,3 @@
----
-
 ### 🧠 **ALGORITHM.md**
 ```markdown
 # 🧮 Algorithms for CN Lab Programs
